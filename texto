@@ -1,2 +1,24 @@
 hola
 hola abajo
+//desde local hacia remoto
+git init
+git confi user.name
+git confi user.email
+git add .
+git status
+git commit -m "nombre del commit"
+git log
+git  remote add origin + url
+git push -u origin main
+git pull
+============================================================
+
+//desde remoto hacia el local
+
+git clone + url
+cd carpeta
+git branch nombreRama //crea rama
+git checkout nombreRama //mueve a la rama
+o
+-->git checkout -b nombreRama //crea y mueve en el mismo comando
+git push 
